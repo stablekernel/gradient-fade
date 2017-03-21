@@ -44,6 +44,9 @@ In the future, will you be able to reliably revolutionize market foci in your bu
                             <constraint firstItem="KGT-XR-tm7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="x8A-EE-09t"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="KGT-XR-tm7" id="hkb-PW-I1z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
