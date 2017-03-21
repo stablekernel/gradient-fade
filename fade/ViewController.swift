@@ -13,12 +13,13 @@ class ViewController: UIViewController, UIScrollViewDelegate, CALayerDelegate {
         gradient.colors = [UIColor.clear.cgColor, UIColor.black.cgColor, UIColor.black.cgColor, UIColor.clear.cgColor]
         gradient.locations = [0, 0.1, 0.9, 1]
         gradient.delegate = self
-        scrollView.layer.mask = gradient
+        label.layer.mask = gradient
     }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
+        scrollView.contentInset = UIEdgeInsets(top: scrollView.frame.height - 40, left: 0, bottom: 0, right: 0)
         updateGradientFrame()
     }
     
