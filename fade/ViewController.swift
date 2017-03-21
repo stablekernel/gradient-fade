@@ -8,9 +8,9 @@ class ViewController: UIViewController {
         
         gradient = CAGradientLayer()
         gradient.frame = view.bounds
-        gradient.colors = [UIColor.red.cgColor, UIColor.purple.cgColor, UIColor.purple.cgColor, UIColor.blue.cgColor]
+        gradient.colors = [UIColor.clear.cgColor, UIColor.black.cgColor, UIColor.black.cgColor, UIColor.clear.cgColor]
         gradient.locations = [0, 0.1, 0.9, 1]
-        view.layer.addSublayer(gradient)
+        view.layer.mask = gradient
     }
     
     override func viewDidLayoutSubviews() {
