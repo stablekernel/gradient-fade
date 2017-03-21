@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  fade
-//
-//  Created by Marcus Smith on 3/21/17.
-//  Copyright © 2017 Blog. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
